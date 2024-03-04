@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import { useTransition } from 'react';
-console.log(1);
+console.log(12);
 function App() {
   const isConcurrent = React.isConcurrentModeAPI;
   const [isPending, startTransition] = useTransition()
